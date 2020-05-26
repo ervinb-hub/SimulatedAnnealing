@@ -1,8 +1,3 @@
-<script type="text/javascript" async
-src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
-config=TeX-MML-AM_CHTML"
-</script>
-
 # Introduction
 The context of using Simulated Annealing in this experiment is to perform a research of the global minimum for some funtions of two variables. It is the nature of these functions that makes them easy to be imagined and perceived as landscapes. Another good reason is the dimensionality of the problem. As I am going to show later, it is by handling this class of functions that one realises how huge the research space can be; even by limiting it to a small interval like [-3,3] on both axes, there are cases when the number of iterations needed until convergence can reach easily the order of thousands.
 Finally, I have also found some two dimensional examples which show the limits of the Simulated Annealing approach. The algorithm cannot perform its task whenever the region containing the global minima is small and any path leading to it is not smooth enough [1](#References).
