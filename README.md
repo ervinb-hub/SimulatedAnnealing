@@ -6,7 +6,7 @@ Finally, I have also found some two dimensional examples which show the limits o
 # Background
 Simulated Annealing, as the name may suggest, is a term coming from thermodynamics. The basic idea consists in applying the same principles of the annealing process to the research of the global minima. The problem it tries to solve is to allow the research method to "move on" from a local minimum point, hence accept a less favourable move with a certain probability given by the formula:
 
-$$ P = e^{-\dfrac{\Delta E}{T}} $$
+<img src="svgs/f1.svg" alt="P = e^{-\dfrac{\Delta E}{T}}"/>
 
 The basic idea is to compare the probability P with a random value [0,1) from a uniform distribution in order to determine whether the probability to be on the right path [P] is better than a random search U(0,1). As long as the value of T is high, the system is inclined to accept most of the "bad" moves, since they have a good probability to succeed. As T decreases, less unfavourable moves will be accepted. Eventually the research is expected to converge to a suboptimal solution.
 The other quantities involved are:
