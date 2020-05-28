@@ -61,7 +61,7 @@ In this case I run again the set of tests in the interval [-1,5]. The idea was t
 
 |Smooth Surface|Monkey Saddle|Easom Function|
 |:-:|:-:|:-:|
-|![](img/f1.png)|![](img/f2.png)|![Easom Function](img/f3.png)|
+|![](img/f1.png)|![](img/f2.png)|![](img/f3.png)|
 |Fig. 1|Fig. 2|Fig. 3|
 
 
